@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label>Person 01 Salary</label>
+    <br>
+    <input type="text" id="per1"/>
+    <br>
+
+
+    <label>Person 02 Salary</label>
+    <br>
+    <input type="text" id="per2"/>
+    <br>
+
+
+    <button onclick="abc()">Submit</button>
+
+
+
+
+    
+
+    
+<script>
+   function abc(){
+
+     
+    var person1 = document.getElementById("per1").value;
+    var person2 = document.getElementById("per2").value;
+
+    if(parseInt(person1)>= parseInt(person2)){
+
+        document.write("Person 1 salaray is greater Than Person 2 Salary");
+    }else{
+
+        document.write("Person 2 salaray is greater Person 1 Salary");
+    }
+
+
+
+
+
+
+   }
+
+
+</script>
+</body>
+</html>
